@@ -32,6 +32,7 @@ a {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1rem;
 }
 
 header {
@@ -44,14 +45,14 @@ hr {
   border-color: #B1D7B4;
   border-style: none none dotted;
   margin: 30px auto;
-  width: 10%;
+  width: 7%;
 }
 
 /*********** CLASS Selector ***********/
 
 /* The navigation bar */
 .navbar {
-  background-color: #333333;
+  background-color: #7FB77E;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
@@ -123,7 +124,7 @@ hr {
 
 .skill-row {
   margin: 100px auto;
-  width: 40%;
+  width: 45%;
   text-align: left;
   line-height: 1.5;
 }
@@ -149,4 +150,49 @@ hr {
   text-align: left;
 }
 
+.contact-me {
+  padding: 30px 0;
+}
+
+.contact-btn {
+  background-color: orangered;
+  border-radius: 10px;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  padding: 1em 1.5em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.contact-btn:hover {
+  background-color: orange;
+}
+
+.contact-btn:active {
+  background-color: black;
+}
+
+.contact-btn:visited {
+  background-color: #ccc;
+}
+
+
+.bottom-container {
+  padding: 30px 0;
+  background-color: #7FB77E;
+}
+
+
+.footer-link {
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  padding: 0 30px;
+  text-decoration: none;
+}
+
+.copyright {
+  color: whitesmoke;
+  font-family: 'Merriweather', serif;
+}
 /*********** ID Selector ***********/
