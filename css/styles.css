@@ -123,21 +123,30 @@ hr {
 
 .skill-row {
   margin: 100px auto;
-  width: 50%;
+  width: 40%;
   text-align: left;
   line-height: 1.5;
 }
 
 .dogbark-image {
-  width: 25%;
+  width: 15%;
   float:left;
   padding-right: 30px;
 }
 
+.barkingskilldescription {
+  margin-bottom: 100px;
+  text-align: left;
+}
+
 .dogpee-image {
-  width: 25%;
+  width: 15%;
   float: right;
   padding-left: 30px;
+}
+
+.peepoopskilldescription {
+  text-align: left;
 }
 
 .bottom-container {
