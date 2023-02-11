@@ -14,7 +14,7 @@ h1 {
   line-height: 1;
 }
 
-h2{
+h2 {
   color: #7FB77E;
   font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
@@ -72,10 +72,13 @@ form {
 .navbar {
   background-color: #7FB77E;
   font-weight: bold;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+  /* Full width */
+
 }
 
 /* Links inside the navbar */
@@ -96,7 +99,8 @@ form {
 
 /* Main content */
 .main {
-  margin-top: 50px; /* Add a top margin to avoid content overlay */
+  margin-top: 50px;
+  /* Add a top margin to avoid content overlay */
 }
 
 .dogbone-separator {
@@ -155,7 +159,7 @@ form {
 
 .skillrowimageLeftAligned {
   width: 15%;
-  float:left;
+  float: left;
   padding-right: 30px;
 }
 
@@ -172,6 +176,42 @@ form {
 
 .skillrowdescriptionRightAligned {
   text-align: left;
+}
+
+.photos {
+  margin: auto;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.photos-link {
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.photos-link:hover {
+  background: #fcb93c;
+  background-image: -webkit-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -moz-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -ms-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -o-linear-gradient(top, #fcb93c, #fca400);
+  background-image: linear-gradient(to bottom, #fcb93c, #fca400);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
 .contact-me {
