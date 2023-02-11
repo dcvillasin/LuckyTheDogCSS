@@ -30,6 +30,10 @@ a {
   color: #11999E;
 }
 
+a:hover {
+  color: whitesmoke;
+}
+
 p {
   font-family: 'Montserrat', sans-serif;
   padding-bottom: 1rem;
@@ -49,10 +53,17 @@ hr {
 }
 
 ul {
-  line-height: 2;
   display: table;
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
   margin: auto;
   text-align: left;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  padding: 10px 0 30px 0;
 }
 
 /*********** CLASS Selector ***********/
@@ -60,10 +71,11 @@ ul {
 /* The navigation bar */
 .navbar {
   background-color: #7FB77E;
+  font-weight: bold;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-
+  
 }
 
 /* Links inside the navbar */
@@ -169,28 +181,40 @@ ul {
   line-height: 2rem;
 }
 
+
 .contact-btn {
-  background-color: orangered;
+  background: #d96534;
+  background-image: -webkit-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -moz-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -ms-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -o-linear-gradient(top, #d96534, #f59d6a);
+  background-image: linear-gradient(to bottom, #d96534, #f59d6a);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
   border-radius: 10px;
-  color: white;
+  border-style: none;
   font-family: 'Montserrat', sans-serif;
-  font-weight: bold;
-  padding: 1em 1.5em;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
   text-decoration: none;
-  text-transform: uppercase;
 }
 
 .contact-btn:hover {
-  background-color: orange;
+  background: #fcb93c;
+  background-image: -webkit-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -moz-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -ms-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -o-linear-gradient(top, #fcb93c, #fca400);
+  background-image: linear-gradient(to bottom, #fcb93c, #fca400);
+  text-decoration: none;
 }
 
-.contact-btn:active {
-  background-color: black;
+
+.justkidding {
+  font-size: smaller;
 }
 
-.contact-btn:visited {
-  background-color: #ccc;
-}
 
 /* Main > Bottom Container */
 .bottom-container {
@@ -210,6 +234,7 @@ ul {
 .copyright {
   color: whitesmoke;
   font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
 }
 
 /*********** ID Selector ***********/
