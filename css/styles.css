@@ -185,13 +185,18 @@ form {
 }
 
 .photos-link {
+  background: #B1D7B4;
+  background-image: -webkit-linear-gradient(top, #B1D7B4, #51d15a);
+  background-image: -moz-linear-gradient(top, #B1D7B4, #51d15a);
+  background-image: -ms-linear-gradient(top, #B1D7B4, #51d15a);
+  background-image: -o-linear-gradient(top, #B1D7B4, #51d15a);
+  background-image: linear-gradient(to bottom, #B1D7B4, #51d15a);
   -webkit-border-radius: 10;
   -moz-border-radius: 10;
   border-radius: 10px;
-  border-style: none;
   font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
   font-size: 20px;
-  font-weight: bold;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
 }
@@ -216,7 +221,7 @@ form {
 
 .contact-me {
   margin: auto;
-  padding: 30px 0;
+  padding: 0 0 30px 0;
   width: 60%;
   line-height: 2rem;
 }
