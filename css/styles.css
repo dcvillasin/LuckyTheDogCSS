@@ -1,9 +1,23 @@
 /*********** TAG Selector ***********/
+a {
+  color: #11999E;
+}
+
+a:hover {
+  color: whitesmoke;
+}
+
 body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather', serif;
   background-color: #F7F6DC;
+}
+
+form {
+  font-family: 'Montserrat', sans-serif;
+  line-height: 2;
+  padding: 10px 0 30px 0;
 }
 
 h1 {
@@ -26,19 +40,6 @@ h3 {
   font-family: 'Montserrat', sans-serif;
 }
 
-a {
-  color: #11999E;
-}
-
-a:hover {
-  color: whitesmoke;
-}
-
-p {
-  font-family: 'Montserrat', sans-serif;
-  padding-bottom: 1rem;
-}
-
 header {
   font-family: 'Montserrat', sans-serif;
 }
@@ -52,6 +53,11 @@ hr {
   width: 7%;
 }
 
+p {
+  font-family: 'Montserrat', sans-serif;
+  padding-bottom: 1rem;
+}
+
 ul {
   display: table;
   font-family: 'Montserrat', sans-serif;
@@ -60,28 +66,24 @@ ul {
   text-align: left;
 }
 
-form {
-  font-family: 'Montserrat', sans-serif;
-  line-height: 2;
-  padding: 10px 0 30px 0;
-}
-
 /*********** CLASS Selector ***********/
 
-/* The navigation bar */
+.dogbone-separator {
+  width: 6rem;
+  padding: 15px 0;
+}
+
+  /* The navigation bar */
 .navbar {
   background-color: #7FB77E;
   font-weight: bold;
-  position: fixed;
-  /* Set the navbar to fixed position */
-  top: 0;
-  /* Position the navbar at the top of the page */
-  width: 100%;
-  /* Full width */
+  position: fixed;  /* Set the navbar to fixed position */
+  top: 0;  /* Position the navbar at the top of the page */
+  width: 100%;  /* Full width */
 
 }
 
-/* Links inside the navbar */
+  /* Links inside the navbar */
 .navbar a {
   float: left;
   display: block;
@@ -91,91 +93,69 @@ form {
   text-decoration: none;
 }
 
-/* Change background on mouse-over */
+  /* Change background on mouse-over */
 .navbar a:hover {
   background: #ddd;
   color: black;
 }
 
-/* Main content */
+  /* Main content */
 .main {
-  margin-top: 50px;
-  /* Add a top margin to avoid content overlay */
+  margin-top: 50px; /* Add a top margin to avoid content overlay */
 }
 
-.dogbone-separator {
-  width: 6rem;
-  padding: 15px 0;
-}
-
-/* Main > Top Container */
-.top-container {
-  background-color: #F7F6DC;
-  padding-top: 50px;
+    /* Main > Top Container */
+.bottom-doghouse {
+  width: 20%;
 }
 
 .lucky-profile-image {
   width: 250px;
 }
 
-/* .top-dogtoyTeddyBoneBall {
-  position: absolute;
-  right: 20%;
-  top: 60px;
-  width: 10%;
-} */
-
-/* .bottom-dogbone {
-  position: absolute;
-  left: 20%;
-  width: 10%;
-} */
-
-.bottom-doghouse {
-  /* margin-top: 10%; */
-  width: 20%;
+.top-container {
+  background-color: #F7F6DC;
+  padding-top: 50px;
 }
 
-
-
-/* Main > Middle Container */
-.middle-container {
-  margin: 15px;
-}
-
-.woof-description {
-  line-height: 2;
+    /* Main > Middle Container */
+.contact-me {
   margin: auto;
-  text-align: center;
+  padding: 0 0 30px 0;
   width: 60%;
+  line-height: 2rem;
 }
 
-.skill-row {
-  margin: 100px auto;
-  width: 60%;
-  text-align: left;
-  line-height: 1.5;
+.contact-btn {
+  background: #d96534;
+  background-image: -webkit-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -moz-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -ms-linear-gradient(top, #d96534, #f59d6a);
+  background-image: -o-linear-gradient(top, #d96534, #f59d6a);
+  background-image: linear-gradient(to bottom, #d96534, #f59d6a);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  border-style: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
 }
 
-.skillrowimageLeftAligned {
-  width: 15%;
-  float: left;
-  padding-right: 30px;
+.contact-btn:hover {
+  background: #fcb93c;
+  background-image: -webkit-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -moz-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -ms-linear-gradient(top, #fcb93c, #fca400);
+  background-image: -o-linear-gradient(top, #fcb93c, #fca400);
+  background-image: linear-gradient(to bottom, #fcb93c, #fca400);
+  text-decoration: none;
 }
 
-.skillrowdescriptionLeftAligned {
-  margin-bottom: 60px;
-  text-align: left;
-}
-
-.skillrowimageRightAligned {
-  width: 15%;
-  float: right;
-  padding-left: 30px;
-}
-
-.skillrowdescriptionRightAligned {
-  text-align: left;
+.justkidding {
+  font-size: smaller;
 }
 
 .photos {
@@ -219,67 +199,64 @@ form {
   text-decoration: none;
 }
 
-.contact-me {
-  margin: auto;
-  padding: 0 0 30px 0;
+.middle-container {
+  margin: 15px;
+}
+
+
+.skill-row {
+  margin: 100px auto;
   width: 60%;
-  line-height: 2rem;
+  text-align: left;
+  line-height: 1.5;
 }
 
-
-.contact-btn {
-  background: #d96534;
-  background-image: -webkit-linear-gradient(top, #d96534, #f59d6a);
-  background-image: -moz-linear-gradient(top, #d96534, #f59d6a);
-  background-image: -ms-linear-gradient(top, #d96534, #f59d6a);
-  background-image: -o-linear-gradient(top, #d96534, #f59d6a);
-  background-image: linear-gradient(to bottom, #d96534, #f59d6a);
-  -webkit-border-radius: 10;
-  -moz-border-radius: 10;
-  border-radius: 10px;
-  border-style: none;
-  font-family: 'Montserrat', sans-serif;
-  color: #ffffff;
-  font-size: 20px;
-  padding: 10px 20px 10px 20px;
-  text-decoration: none;
+.skillrowimageLeftAligned {
+  width: 15%;
+  float: left;
+  padding-right: 30px;
 }
 
-.contact-btn:hover {
-  background: #fcb93c;
-  background-image: -webkit-linear-gradient(top, #fcb93c, #fca400);
-  background-image: -moz-linear-gradient(top, #fcb93c, #fca400);
-  background-image: -ms-linear-gradient(top, #fcb93c, #fca400);
-  background-image: -o-linear-gradient(top, #fcb93c, #fca400);
-  background-image: linear-gradient(to bottom, #fcb93c, #fca400);
-  text-decoration: none;
+.skillrowdescriptionLeftAligned {
+  margin-bottom: 60px;
+  text-align: left;
 }
 
-
-.justkidding {
-  font-size: smaller;
+.skillrowimageRightAligned {
+  width: 15%;
+  float: right;
+  padding-left: 30px;
 }
 
+.skillrowdescriptionRightAligned {
+  text-align: left;
+}
 
-/* Main > Bottom Container */
+.woof-description {
+  line-height: 2;
+  margin: auto;
+  text-align: center;
+  width: 60%;
+}
+
+    /* Main > Bottom Container */
 .bottom-container {
   padding: 20px 0 5px 0;
   background-color: #7FB77E;
 }
 
+    /* Footer */
+.copyright {
+  color: whitesmoke;
+  font-family: 'Merriweather', serif;
+  font-size: 0.75rem;
+}
 
-/* Footer */
 .footer-link {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
   padding: 0 20px;
   text-decoration: none;
-}
-
-.copyright {
-  color: whitesmoke;
-  font-family: 'Merriweather', serif;
-  font-size: 0.75rem;
 }
 
 /*********** ID Selector ***********/
