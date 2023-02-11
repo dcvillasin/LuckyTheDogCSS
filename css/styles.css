@@ -11,7 +11,7 @@ h1 {
   font-family: 'Sacramento', cursive;
   font-size: 5.625rem;
   margin: 0 auto;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 h2{
@@ -44,7 +44,7 @@ hr {
   border: 7px;
   border-color: #B1D7B4;
   border-style: none none dotted;
-  margin: 30px auto;
+  margin: 40px auto;
   width: 7%;
 }
 
@@ -87,6 +87,12 @@ ul {
   margin-top: 50px; /* Add a top margin to avoid content overlay */
 }
 
+.dogbone-separator {
+  width: 6rem;
+  padding: 15px 0;
+}
+
+/* Main > Top Container */
 .top-container {
   background-color: #F7F6DC;
   padding-top: 50px;
@@ -96,71 +102,70 @@ ul {
   width: 250px;
 }
 
-.top-dogtoyTeddyBoneBall {
+/* .top-dogtoyTeddyBoneBall {
   position: absolute;
   right: 20%;
   top: 60px;
   width: 10%;
-}
+} */
 
-.bottom-dogbone {
+/* .bottom-dogbone {
   position: absolute;
   left: 20%;
   width: 10%;
-}
+} */
 
 .bottom-doghouse {
-  margin-top: 10%;
-  width: 30%;
+  /* margin-top: 10%; */
+  width: 20%;
 }
 
 
 
-
+/* Main > Middle Container */
 .middle-container {
-  /*background-color: #F7F6DC;*/
-  margin-top: 50px;
+  margin: 15px;
 }
 
 .woof-description {
   line-height: 2;
   margin: auto;
   text-align: center;
-  width: 50%;
+  width: 60%;
 }
 
 .skill-row {
   margin: 100px auto;
-  width: 50%;
+  width: 60%;
   text-align: left;
   line-height: 1.5;
 }
 
-.dogbark-image {
+.skillrowimageLeftAligned {
   width: 15%;
   float:left;
   padding-right: 30px;
 }
 
-.barkingskilldescription {
-  margin-bottom: 100px;
+.skillrowdescriptionLeftAligned {
+  margin-bottom: 60px;
   text-align: left;
 }
 
-.dogpee-image {
+.skillrowimageRightAligned {
   width: 15%;
   float: right;
   padding-left: 30px;
 }
 
-.peepoopskilldescription {
+.skillrowdescriptionRightAligned {
   text-align: left;
 }
 
 .contact-me {
   margin: auto;
   padding: 30px 0;
-  width: 50%;
+  width: 60%;
   line-height: 2rem;
 }
 
@@ -187,13 +192,14 @@ ul {
   background-color: #ccc;
 }
 
-
+/* Main > Bottom Container */
 .bottom-container {
   padding: 20px 0 5px 0;
   background-color: #7FB77E;
 }
 
 
+/* Footer */
 .footer-link {
   font-weight: bold;
   font-family: 'Montserrat', sans-serif;
@@ -205,4 +211,5 @@ ul {
   color: whitesmoke;
   font-family: 'Merriweather', serif;
 }
+
 /*********** ID Selector ***********/
